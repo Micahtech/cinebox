@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
+import {FaArrowCircleLeft } from "react-icons/fa";
 import './ServicesSection.css';
 import { BsArrowRightCircle } from "react-icons/bs";
 

@@ -9,19 +9,15 @@ import {
   IoCameraOutline,
   IoCartOutline,
   IoClose,
-  IoMenu,
 } from 'react-icons/io5';
 import {
   CiCamera,
   CiVideoOn,
-  CiSearch,
 } from 'react-icons/ci';
 import { RiCameraLensFill } from 'react-icons/ri';
 import { FiSearch } from "react-icons/fi";
 import { TbMenu2 } from "react-icons/tb";
 
-import { HiMenuAlt3 } from "react-icons/hi";
-import { FaArrowCircleRight } from "react-icons/fa";
 
 
 import { MdOutlineFlipCameraAndroid } from 'react-icons/md';

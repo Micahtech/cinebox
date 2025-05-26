@@ -1,10 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import heroImage from '../assets/erasebg-transformed (1).png'; // Add image with transparent background
-import { FaArrowCircleRight } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa6";
 import { IoIosArrowRoundForward } from "react-icons/io";
-import heroImage2 from '../assets/erasebg-transformed (2).png'; // Add image with transparent background
 
 function Hero() {
   return (
