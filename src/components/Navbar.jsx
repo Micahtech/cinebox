@@ -31,7 +31,6 @@ function Navbar() {
   const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
-  const toggleMobileSearch = () => setMobileSearchOpen(!mobileSearchOpen);
 
   return (
     <header className="navbar">
