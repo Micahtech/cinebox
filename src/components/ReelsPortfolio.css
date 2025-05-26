@@ -1,0 +1,56 @@
+.reels-section {
+  background: #000;
+  color: white;
+  padding: 1rem 0;
+  position: relative;
+}
+
+.swipe-tip {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  color: #aaa;
+}
+
+.reels-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+  height: 90vh;
+}
+
+.reel {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  scroll-snap-align: start;
+  margin-bottom: 1rem;
+}
+
+.reel-video {
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+  border-radius: 12px;
+  background: #111;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+@media (max-width: 600px) {
+  .reels-container {
+    height: 100vh;
+  }
+}

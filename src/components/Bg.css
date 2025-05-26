@@ -1,0 +1,11 @@
+.Bg{
+    
+background: url('../assets/a-product-landing-page-hero-section-desi_4mF8_ywvSqORj3zodudpNg_v021mWpwQRa3RKiqGOgKKA-Photoroom (2).png');
+background-repeat: no-repeat;
+background-size: cover; 
+width: 120%;
+top: 0;
+z-index: -1;
+display: block;
+height: 100vh;
+}

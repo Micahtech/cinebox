@@ -1,0 +1,34 @@
+.mobile-navbar {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    backdrop-filter: blur(12px);
+    border-top: 1px solid #ccc;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .mobile-nav-item {
+    text-decoration: none;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+  }
+  
+  .mobile-nav-item svg {
+    font-size: 1.2rem;
+    margin-bottom: 2px;
+  }
+  
+  @media (max-width: 768px) {
+    .mobile-navbar {
+      display: flex;
+    }
+  }
+  

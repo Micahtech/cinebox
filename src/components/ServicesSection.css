@@ -1,0 +1,175 @@
+.services-section {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    background: linear-gradient(to right, #2f2f3042, #050505a2);
+backdrop-filter: blur(12px);
+border-radius: 8px;
+  }
+  
+  .services-intro {
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 50px;
+
+  }
+  .services-intro h2{
+    font-size: 3.5rem;
+    color: aliceblue;
+  }
+  .services-intro p{
+    color: aliceblue;
+    max-width: 600px;
+    margin-top: 15px;
+    font-size: 1.1rem;
+  }
+  .services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .service-item {
+    border-bottom: 1px solid #ccc;
+    padding: 1rem 0;
+  }
+  
+  .service-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    flex-wrap: wrap;
+    color: aliceblue;
+  }
+  
+  .service-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    transition: font-size 0.3s ease;
+  }
+  
+  .service-title.enlarged {
+    font-size: 3.5rem;
+    color: #fff;
+  }
+  
+  .chevron-icon {
+    font-size: 2.1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-description {
+    flex: 1;
+    margin-left: 1rem;
+    font-size: 0.95rem;
+    max-width: 500px;
+    color: #444;
+  }
+  
+  @media (max-width: 768px) {
+    .service-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .service-description {
+      margin-left: 0;
+      margin-top: 0.5rem;
+    }
+  }
+  
+  .service-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 1rem 0;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.service-title-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.service-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  transition: font-size 0.3s ease;
+  opacity: 0.8;
+}
+
+.service-title.enlarged {
+  font-size: 2.3rem;
+  color: #fff;
+  padding-left: 40px;
+  opacity: 1;
+}
+
+.service-description {
+  font-size: 0.95rem;
+  color: #fff;
+  max-width: 500px;
+}
+
+.chevron-icon {
+  font-size: 1.4rem;
+  margin-left: auto;
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .service-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .chevron-icon {
+    margin-left: 0;
+    align-self: flex-end;
+  }
+
+  .service-title-wrapper {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+@media (max-width: 670px){
+.services-intro{
+    flex-direction: column;
+}
+.services-intro p{
+    margin-top: 0px;
+    max-width: 100%;
+    text-align: left;
+    margin: 0 auto;
+    line-height: 1.6;
+    width: 100%;
+}
+.services-intro h2{
+    font-size: 2.9rem;
+
+}
+.service-title.enlarged{
+    font-size: 1.9rem;
+    padding-left: 0px;
+}
+.service-title-wrapper{
+    gap: 0.3rem;
+}
+.service-header{
+  
+}
+.chevron-icon{
+    display: none;
+}
+}
