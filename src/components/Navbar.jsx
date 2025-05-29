@@ -28,7 +28,7 @@ import logo from '../assets/IMG_1857.PNG';
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [mobileSearchOpen, setMobileSearchOpen] = useState(false);
+  const [mobileSearchOpen] = useState(false);
 
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
